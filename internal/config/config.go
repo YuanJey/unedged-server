@@ -33,10 +33,9 @@ type BaseStats struct {
 
 // Stance 姿态修正倍率
 type Stance struct {
-	MoveSpeedMult            float64 `json:"move_speed_mult"`
-	DamageMult               float64 `json:"damage_mult"`
-	GuardStaminaCostMult     float64 `json:"guard_stamina_cost_mult"`
-	HasHyperArmorOnTopHeavy  bool    `json:"has_hyper_armor_on_top_heavy"`
+	MoveSpeedMult        float64 `json:"move_speed_mult"`
+	DamageMult           float64 `json:"damage_mult"`
+	GuardStaminaCostMult float64 `json:"guard_stamina_cost_mult"`
 }
 
 // WeaponItem 具体名器定义与代偿机制
